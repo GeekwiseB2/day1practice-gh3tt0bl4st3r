@@ -3,6 +3,55 @@ li {
   color: #e40007;
 }
 
+/*container styles*/
+.container-fluid {
+  background-color: yellow;
+  width: 100%;
+}
+.blue {
+  height: 200px;
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.green {
+  height: 75px;
+  background-color: green;
+  border: 1px solid #000;
+}
+
+.red {
+    height: 300px;
+    background-color: red;
+    border: 1px solid #000;
+  }
+}
+
+.col-md-5 {
+    height: 200px;
+    background-color: #42f4eb;
+    border: 1px solid #000;
+  }
+
+.col-md-3 {
+    height: 200px;
+    background-color: orange;
+    border: 1px solid #000;
+}
+
+.black {
+  height: 75px;
+  background-color: black;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+div {
+  border: 1px solid #000;
+}
+
+/*media queries*/
+
 @media screen and (min-width: 300px) {
   .col-md-3 {
     background-color: blue;
